@@ -1,5 +1,5 @@
 // Models
-const { Cart } = require('../models/cart.model');
+const { Cart } = require('../models/carts.model');
 
 // Utils
 const { AppError } = require('../utils/appError.util');

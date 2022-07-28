@@ -10,7 +10,7 @@ const { Productimgs } = require('../models/productimg.model');
 // utils
 const { catchAsync } = require('../utils/catchAsync.util');
 const { AppError } = require('../utils/appError.util');
-const { storage } = require('../utils/firebase.util');
+const { storage } = require('../utils/firebase.utils');
 
 // dotenv
 // dotenv.config({ path: '../config.env' });
